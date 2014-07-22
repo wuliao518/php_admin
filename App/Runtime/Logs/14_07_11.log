@@ -1,0 +1,375 @@
+[ 2014-07-11T15:50:51+08:00 ] 127.0.0.1 /sscode/index.php/User/reg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.046112s ]
+INFO: [ route_check ] --END-- [ RunTime:0.103812s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.194610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046720s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.445864s ]
+INFO: [ view_template ] --END-- [ RunTime:0.037762s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.483723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146811s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.630626s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.664524s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.699469s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.700288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.070699s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.701476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2014-07-11T15:50:58+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.507657s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('1229639518@qq.com','') [ RunTime:0.214020s ]
+
+[ 2014-07-11T15:54:35+08:00 ] ERR: (ThinkException) Duplicate entry '1229639518@qq.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `lu_user` (`username`,`password`) VALUES ('1229639518@qq.com','')
+[ 2014-07-11T15:56:04+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.004417s ]
+NOTIC: [8] Undefined variable: _validate D:\wuliao\wamp\www\sscode\App\Lib\Action\UserAction.class.php 第 5 行.
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('12296q39518@qq.com','') [ RunTime:0.033130s ]
+
+[ 2014-07-11T15:57:05+08:00 ] ERR: (ThinkException) Duplicate entry '12296q39518@qq.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `lu_user` (`username`,`password`) VALUES ('12296q39518@qq.com','')
+[ 2014-07-11T15:59:15+08:00 ] 127.0.0.1 /sscode/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002271s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = 'luqian' )  [ RunTime:0.027304s ]
+
+[ 2014-07-11T16:00:18+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:00:55+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:02:17+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:02:42+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:04:26+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:04:29+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:07:20+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:10:14+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:10:19+08:00 ] ERR: (ThinkException) Model:ceshi您所请求的方法不存在！
+[ 2014-07-11T16:13:46+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002213s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('39518@qq.com','qwe') [ RunTime:0.364376s ]
+
+[ 2014-07-11T16:27:30+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002660s ]
+
+[ 2014-07-11T16:28:22+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002274s ]
+
+[ 2014-07-11T16:28:43+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002292s ]
+
+[ 2014-07-11T16:28:45+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002759s ]
+
+[ 2014-07-11T16:35:37+08:00 ] 127.0.0.1 /sscode/index.php/User/reg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003699s ]
+INFO: [ view_template ] --END-- [ RunTime:0.026762s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022468s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053155s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.054059s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054888s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.055460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003206s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2014-07-11T16:36:35+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003297s ]
+
+[ 2014-07-11T16:37:06+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002394s ]
+
+[ 2014-07-11T16:37:29+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002409s ]
+
+[ 2014-07-11T16:37:32+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002281s ]
+
+[ 2014-07-11T16:37:54+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002297s ]
+NOTIC: [8] Undefined index: repassword D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 996 行.
+NOTIC: [8] Undefined index: repassword D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 996 行.
+
+[ 2014-07-11T16:38:15+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000853s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002357s ]
+NOTIC: [8] Undefined index: repassword D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 996 行.
+
+[ 2014-07-11T16:40:12+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003727s ]
+NOTIC: [8] Undefined index: repassword D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 996 行.
+
+[ 2014-07-11T16:41:47+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.004736s ]
+NOTIC: [8] Undefined index: repassword D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 996 行.
+
+[ 2014-07-11T16:42:21+08:00 ] 127.0.0.1 /sscode/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002350s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = 'luqian' )  [ RunTime:0.000477s ]
+
+[ 2014-07-11T16:42:41+08:00 ] 127.0.0.1 /sscode/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002321s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = 'luqian' )  [ RunTime:0.000491s ]
+
+[ 2014-07-11T16:42:43+08:00 ] 127.0.0.1 /sscode/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000970s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002239s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = 'luqian' )  [ RunTime:0.000436s ]
+
+[ 2014-07-11T16:44:09+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002354s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('123234','827ccb0eea8a706c4c34a16891f84e7b') [ RunTime:0.025360s ]
+
+[ 2014-07-11T16:44:13+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002379s ]
+
+[ 2014-07-11T16:47:29+08:00 ] ERR: (ThinkException) Duplicate entry '123234' for key 'username'
+ [ SQL语句 ] : INSERT INTO `lu_user` (`username`,`password`) VALUES ('123234','d8a6958b5540c0f0a15e4037316848a3')
+[ 2014-07-11T17:05:23+08:00 ] 192.168.1.12 /sscode/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039373s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.064116s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.064878s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.065732s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.066436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.067823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2014-07-11T17:30:20+08:00 ] 127.0.0.1 /sscode/index.php/User/reg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.016333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028201s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.029326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057589s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.087008s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101313s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.121264s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.135731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.057682s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.144839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007440s ]
+
+[ 2014-07-11T17:30:33+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\wuliao\wamp\www\ThinkPHP\Common\common.php 第 253 行.
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.031409s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-11T17:30:57+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.034131s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-11T17:31:07+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003984s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-11T17:31:40+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.019118s ]
+
+[ 2014-07-11T17:31:47+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000831s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002583s ]
+
+[ 2014-07-11T17:32:03+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002409s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('qwe1123','4297f44b13955235245b2497399d7a93') [ RunTime:0.078545s ]
+
+[ 2014-07-11T17:32:50+08:00 ] ERR: (ThinkException) Duplicate entry 'qwe1123' for key 'username'
+ [ SQL语句 ] : INSERT INTO `lu_user` (`username`,`password`) VALUES ('qwe1123','4297f44b13955235245b2497399d7a93')
+[ 2014-07-11T17:34:43+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.017946s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('wuliaolu','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.003706s ]
+

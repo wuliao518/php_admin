@@ -1,0 +1,1451 @@
+[ 2014-07-14T08:49:59+08:00 ] 192.168.1.12 /sscode/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.014230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014845s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.056990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099269s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.156294s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.157375s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.165985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.166881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019514s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.175956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2014-07-14T08:50:04+08:00 ] 192.168.1.12 /sscode/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007903s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009164s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009798s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010380s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002212s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2014-07-14T09:55:00+08:00 ] 192.168.1.12 /sscode/index.php?m=User&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.055072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.161544s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.264864s ]
+INFO: [ view_template ] --END-- [ RunTime:0.031721s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.284714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182720s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.467654s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.468422s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.551089s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.572553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.106181s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.574086s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003911s ]
+
+[ 2014-07-14T11:06:58+08:00 ] 127.0.0.1 /sscode/index.php/User/reg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.042515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.057687s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000984s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.058780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009343s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.068219s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.068999s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069734s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002942s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2014-07-14T11:13:07+08:00 ] 127.0.0.1 /sscode/index.php/User/reg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003690s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008413s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013234s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013815s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014393s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002412s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2014-07-14T11:13:22+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.796904s ]
+
+[ 2014-07-14T11:13:46+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.281841s ]
+
+[ 2014-07-14T11:19:20+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002344s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('xiaojiang','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.227669s ]
+
+[ 2014-07-14T11:46:58+08:00 ] ERR: (ThinkException) Duplicate entry 'xiaojiang' for key 'username'
+ [ SQL语句 ] : INSERT INTO `lu_user` (`username`,`password`) VALUES ('xiaojiang','e10adc3949ba59abbe56e057f20f883e')
+[ 2014-07-14T11:47:05+08:00 ] ERR: (ThinkException) Duplicate entry 'xiaojiang' for key 'username'
+ [ SQL语句 ] : INSERT INTO `lu_user` (`username`,`password`) VALUES ('xiaojiang','e10adc3949ba59abbe56e057f20f883e')
+[ 2014-07-14T11:48:30+08:00 ] ERR: (ThinkException) Duplicate entry 'xiaojiang' for key 'username'
+ [ SQL语句 ] : INSERT INTO `lu_user` (`username`,`password`) VALUES ('xiaojiang','e10adc3949ba59abbe56e057f20f883e')
+[ 2014-07-14T11:49:02+08:00 ] 127.0.0.1 /sscode/index.php/User/reg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002720s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012404s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022922s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038289s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039039s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040019s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003281s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2014-07-14T11:49:18+08:00 ] ERR: (ThinkException) Duplicate entry 'xiaojiang' for key 'username'
+ [ SQL语句 ] : INSERT INTO `lu_user` (`username`,`password`) VALUES ('xiaojiang','e10adc3949ba59abbe56e057f20f883e')
+[ 2014-07-14T11:50:31+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002384s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:50:42+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002339s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:51:25+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002315s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:51:47+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002356s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:52:43+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002290s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:52:49+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003271s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:53:24+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002350s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:53:53+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002440s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:54:03+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003691s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:57:02+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002739s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:57:04+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.005458s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:57:15+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002446s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T11:58:07+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002851s ]
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Empty regular expression D:\wuliao\wamp\www\ThinkPHP\Lib\Core\Model.class.php 第 844 行.
+
+[ 2014-07-14T12:02:19+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002555s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = 'w' ) LIMIT 1   [ RunTime:0.033119s ]
+
+[ 2014-07-14T13:41:38+08:00 ] ERR: (ThinkException) 非法操作:ceshi
+[ 2014-07-14T13:42:05+08:00 ] ERR: (ThinkException) 非法操作:ceshi
+[ 2014-07-14T13:42:43+08:00 ] ERR: (ThinkException) 非法操作:ceshi
+[ 2014-07-14T13:42:45+08:00 ] ERR: (ThinkException) 非法操作:ceshi
+[ 2014-07-14T13:42:50+08:00 ] ERR: (ThinkException) 非法操作:ceshi
+[ 2014-07-14T13:43:06+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+
+[ 2014-07-14T13:43:11+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+
+[ 2014-07-14T13:43:19+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+
+[ 2014-07-14T13:43:22+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+
+[ 2014-07-14T13:43:32+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+
+[ 2014-07-14T13:44:22+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wuliao\wamp\www\ThinkPHP\Common\functions.php 第 523 行.
+
+[ 2014-07-14T13:44:41+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wuliao\wamp\www\ThinkPHP\Common\functions.php 第 523 行.
+
+[ 2014-07-14T13:46:05+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wuliao\wamp\www\ThinkPHP\Common\functions.php 第 523 行.
+
+[ 2014-07-14T13:46:08+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wuliao\wamp\www\ThinkPHP\Common\functions.php 第 523 行.
+
+[ 2014-07-14T13:46:48+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2014-07-14T13:47:11+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+
+[ 2014-07-14T13:50:21+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+
+[ 2014-07-14T13:50:22+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+
+[ 2014-07-14T13:52:22+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2014-07-14T13:52:24+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2014-07-14T14:00:47+08:00 ] 127.0.0.1 /sscode/index.php/User/reg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002697s ]
+INFO: [ view_template ] --END-- [ RunTime:0.017588s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132311s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.152771s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.168282s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.178641s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.179326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027939s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.180857s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2014-07-14T14:01:05+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.496241s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '13612345678' ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('13612345678','198eb824be2cf80bce03cb0fd383be04') [ RunTime:0.224987s ]
+
+[ 2014-07-14T14:01:41+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.007802s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201059' ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('15936201059','89044d695297fc2c4daf70221ce633f0') [ RunTime:0.022425s ]
+
+[ 2014-07-14T14:16:59+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002369s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201059' ) LIMIT 1   [ RunTime:0.027648s ]
+
+[ 2014-07-14T14:17:10+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002234s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201030' ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('15936201030','f0fc1ab7d16acdbe1103157a5eaa1de4') [ RunTime:0.031206s ]
+
+[ 2014-07-14T14:18:25+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.021180s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201030' ) LIMIT 1   [ RunTime:0.000582s ]
+
+[ 2014-07-14T14:19:25+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002400s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201030' ) LIMIT 1   [ RunTime:0.000468s ]
+
+[ 2014-07-14T14:19:30+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002913s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201030' ) LIMIT 1   [ RunTime:0.000571s ]
+
+[ 2014-07-14T14:19:39+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002699s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201031' ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('15936201031','b39c912866d10f64d2fb50dedad8a9bc') [ RunTime:0.034756s ]
+
+[ 2014-07-14T14:22:46+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002445s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '13290782345' ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('13290782345','d60909422494ca826c751e8665b8f876') [ RunTime:0.020846s ]
+
+[ 2014-07-14T14:23:24+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002461s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201059' ) LIMIT 1   [ RunTime:0.000431s ]
+
+[ 2014-07-14T14:23:27+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002376s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '15936201059' ) LIMIT 1   [ RunTime:0.000486s ]
+
+[ 2014-07-14T14:39:48+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002285s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '13012344567' ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: INSERT INTO `lu_user` (`username`,`password`) VALUES ('13012344567','384d70780ef7ba05ae5200d05a131ec1') [ RunTime:0.009161s ]
+
+[ 2014-07-14T14:47:24+08:00 ] 127.0.0.1 /sscode/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000970s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.031777s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.059794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140861s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.200666s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.241037s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.284719s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.308632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.114573s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.315419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009235s ]
+
+[ 2014-07-14T14:47:37+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002475s ]
+
+[ 2014-07-14T14:47:48+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002371s ]
+
+[ 2014-07-14T14:48:07+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.021760s ]
+
+[ 2014-07-14T14:51:45+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.025308s ]
+
+[ 2014-07-14T14:51:48+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003005s ]
+
+[ 2014-07-14T15:05:01+08:00 ] 127.0.0.1 /sscode/index.php/User/ceshi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+
+[ 2014-07-14T18:03:54+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.038443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.061820s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.130074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021002s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.645074s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.057404s ]
+
+[ 2014-07-14T18:04:07+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.016192s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000496s ]
+
+[ 2014-07-14T18:04:13+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.011845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002382s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000448s ]
+
+[ 2014-07-14T18:05:15+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.024146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002517s ]
+NOTIC: [8] Undefined variable: res D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, null given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:05:35+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.010585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010742s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002402s ]
+NOTIC: [8] Undefined variable: res D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, null given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:05:39+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002299s ]
+NOTIC: [8] Undefined variable: res D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, null given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:05:41+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002292s ]
+NOTIC: [8] Undefined variable: res D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, null given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:05:43+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002494s ]
+NOTIC: [8] Undefined variable: res D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, null given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:06:04+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002282s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.006653s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, string given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:06:13+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002846s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000456s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, string given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:06:41+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002571s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000446s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:06:45+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002418s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000500s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:06:54+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002684s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000503s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:06:55+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002585s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000412s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:07:40+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002631s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000506s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:07:42+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002310s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000491s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:07:43+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002332s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000560s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:07:54+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002533s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000400s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:07:57+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002768s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000487s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:09:04+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000970s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002724s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000425s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:09:06+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002288s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000521s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:09:22+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002899s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000478s ]
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:09:48+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.021662s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000484s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:09:54+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002369s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.021486s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:10:02+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002310s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000435s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:10:04+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002510s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000477s ]
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, array given D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 6 行.
+
+[ 2014-07-14T18:12:46+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002441s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000502s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+
+[ 2014-07-14T18:12:51+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002603s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000484s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+
+[ 2014-07-14T18:12:54+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002303s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000407s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+
+[ 2014-07-14T18:13:02+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002419s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000491s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+
+[ 2014-07-14T18:13:11+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002410s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000537s ]
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant k - assumed 'k' D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+NOTIC: [8] Undefined index: k D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 7 行.
+
+[ 2014-07-14T18:13:54+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003120s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000430s ]
+
+[ 2014-07-14T18:14:07+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002293s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000535s ]
+
+[ 2014-07-14T18:14:39+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002602s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000444s ]
+
+[ 2014-07-14T18:15:48+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002618s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000417s ]
+
+[ 2014-07-14T18:29:55+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002494s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000513s ]
+
+[ 2014-07-14T18:30:04+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002275s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.012999s ]
+
+[ 2014-07-14T18:30:17+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002316s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000492s ]
+
+[ 2014-07-14T18:30:21+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002359s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000478s ]
+
+[ 2014-07-14T18:31:23+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002261s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000487s ]
+NOTIC: [8] Array to string conversion D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 10 行.
+
+[ 2014-07-14T18:31:24+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002350s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000486s ]
+NOTIC: [8] Array to string conversion D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 10 行.
+
+[ 2014-07-14T18:31:43+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002281s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000484s ]
+NOTIC: [8] Array to string conversion D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 10 行.
+
+[ 2014-07-14T18:31:45+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002487s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000500s ]
+NOTIC: [8] Array to string conversion D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 10 行.
+
+[ 2014-07-14T18:31:55+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002496s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000485s ]
+NOTIC: [8] Array to string conversion D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 10 行.
+
+[ 2014-07-14T18:32:02+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.272521s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000504s ]
+
+[ 2014-07-14T18:32:04+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002601s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000482s ]
+
+[ 2014-07-14T18:37:17+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002297s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000491s ]
+
+[ 2014-07-14T18:37:21+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002770s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000485s ]
+
+[ 2014-07-14T18:38:02+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002320s ]
+SQL: SELECT * FROM `lu_user`  [ RunTime:0.000480s ]
+
+[ 2014-07-14T18:54:05+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.035203s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000481s ]
+
+[ 2014-07-14T18:54:20+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003347s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002301s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000345s ]
+
+[ 2014-07-14T18:54:22+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002418s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000393s ]
+
+[ 2014-07-14T19:00:20+08:00 ] 127.0.0.1 /sscode/index.php/Group/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.026111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026272s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002241s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000422s ]
+
+[ 2014-07-14T19:16:00+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002382s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000367s ]
+
+[ 2014-07-14T19:17:06+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002208s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000368s ]
+
+[ 2014-07-14T19:26:14+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001678s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002513s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000339s ]
+
+[ 2014-07-14T19:29:37+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002300s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000463s ]
+
+[ 2014-07-14T19:30:20+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002284s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000381s ]
+
+[ 2014-07-14T19:30:44+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002234s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000377s ]
+
+[ 2014-07-14T19:30:55+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002374s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000350s ]
+
+[ 2014-07-14T19:36:59+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002082s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000450s ]
+
+[ 2014-07-14T19:38:06+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002660s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000377s ]
+
+[ 2014-07-14T19:51:09+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002182s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000346s ]
+
+[ 2014-07-14T19:53:02+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002159s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000357s ]
+
+[ 2014-07-14T19:54:19+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002295s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000419s ]
+

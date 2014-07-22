@@ -1,0 +1,1184 @@
+[ 2014-07-15T09:48:24+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.016613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.011654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.103781s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = 'wuliao' ) LIMIT 1   [ RunTime:0.012036s ]
+SQL: INSERT INTO `lu_user` (`username`,`phone_num`,`password`) VALUES ('wuliao','15936201059','a384b6463fc216a5f8ecb6670f86456a') [ RunTime:0.002330s ]
+
+[ 2014-07-15T09:48:26+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.107165s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000409s ]
+
+[ 2014-07-15T10:16:51+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.038534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.038708s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.015295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014436s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.031751s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000410s ]
+
+[ 2014-07-15T10:18:10+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.014392s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000386s ]
+
+[ 2014-07-15T10:19:44+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.056396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.056558s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.038948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025930s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002393s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000393s ]
+
+[ 2014-07-15T13:44:33+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.052662s ]
+INFO: [ route_check ] --END-- [ RunTime:0.150977s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.227110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013351s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:1.078787s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.073961s ]
+
+[ 2014-07-15T13:45:45+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.024494s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000429s ]
+
+[ 2014-07-15T13:53:59+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002901s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000340s ]
+
+[ 2014-07-15T14:07:34+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002194s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000379s ]
+
+[ 2014-07-15T14:09:08+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002168s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000364s ]
+
+[ 2014-07-15T14:10:52+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002283s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000396s ]
+
+[ 2014-07-15T14:17:43+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.294326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.622834s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.511197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012524s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.141776s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.364640s ]
+
+[ 2014-07-15T14:17:49+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001218s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.147294s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.032319s ]
+
+[ 2014-07-15T14:18:57+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.025046s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000408s ]
+
+[ 2014-07-15T14:35:14+08:00 ] ERR: (ThinkException) 参数错误或者未定义:str
+[ 2014-07-15T14:37:28+08:00 ] ERR: (ThinkException) 参数错误或者未定义:str
+[ 2014-07-15T14:38:00+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002552s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑%' )  [ RunTime:0.047816s ]
+
+[ 2014-07-15T14:38:17+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002203s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑%' )  [ RunTime:0.000500s ]
+
+[ 2014-07-15T14:40:01+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E9%83%91
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002112s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' )  [ RunTime:0.000420s ]
+
+[ 2014-07-15T14:40:03+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E9%83%91
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002271s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' )  [ RunTime:0.000411s ]
+
+[ 2014-07-15T14:40:12+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.003013s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' )  [ RunTime:0.017790s ]
+
+[ 2014-07-15T14:40:27+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002195s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' )  [ RunTime:0.000407s ]
+
+[ 2014-07-15T14:40:36+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002404s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' )  [ RunTime:0.000480s ]
+
+[ 2014-07-15T14:43:07+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002675s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.014858s ]
+
+[ 2014-07-15T14:43:32+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002199s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000356s ]
+
+[ 2014-07-15T14:43:47+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002205s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000464s ]
+
+[ 2014-07-15T14:44:16+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002197s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000409s ]
+
+[ 2014-07-15T14:44:18+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001066s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002219s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.021292s ]
+
+[ 2014-07-15T14:44:24+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002491s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000358s ]
+
+[ 2014-07-15T14:44:26+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002207s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000411s ]
+
+[ 2014-07-15T14:44:29+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002224s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000409s ]
+
+[ 2014-07-15T14:44:40+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002222s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%Array%' ) LIMIT 10   [ RunTime:0.000409s ]
+
+[ 2014-07-15T14:46:06+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001351s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002452s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%Array%' ) LIMIT 10   [ RunTime:0.000456s ]
+
+[ 2014-07-15T14:46:11+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002156s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%Array%' ) LIMIT 10   [ RunTime:0.000498s ]
+
+[ 2014-07-15T14:46:13+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002169s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%Array%' ) LIMIT 10   [ RunTime:0.000504s ]
+
+[ 2014-07-15T14:46:47+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002230s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%Array%' ) LIMIT 10   [ RunTime:0.000449s ]
+
+[ 2014-07-15T14:46:49+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002193s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%Array%' ) LIMIT 10   [ RunTime:0.000526s ]
+
+[ 2014-07-15T14:47:05+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002232s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%易%' ) LIMIT 10   [ RunTime:0.009072s ]
+
+[ 2014-07-15T14:47:08+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002378s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%易%' ) LIMIT 10   [ RunTime:0.000443s ]
+
+[ 2014-07-15T15:04:02+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.031493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.031671s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024704s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.033817s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000588s ]
+
+[ 2014-07-15T15:08:15+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002461s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000413s ]
+
+[ 2014-07-15T15:08:27+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E9%83%91]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002239s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000389s ]
+
+[ 2014-07-15T15:08:41+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002189s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000369s ]
+
+[ 2014-07-15T15:08:43+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002878s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000563s ]
+
+[ 2014-07-15T15:08:44+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002123s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000451s ]
+
+[ 2014-07-15T15:08:44+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002669s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000350s ]
+
+[ 2014-07-15T15:08:44+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002165s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000371s ]
+
+[ 2014-07-15T15:08:45+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002180s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000365s ]
+
+[ 2014-07-15T15:12:35+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002374s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000567s ]
+
+[ 2014-07-15T15:13:13+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E9%83%91]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002528s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000384s ]
+
+[ 2014-07-15T15:13:26+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002193s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000422s ]
+
+[ 2014-07-15T15:14:49+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001053s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002203s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.008999s ]
+
+[ 2014-07-15T15:15:09+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E9%83%91]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002180s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000365s ]
+
+[ 2014-07-15T15:15:16+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002280s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000422s ]
+
+[ 2014-07-15T15:16:27+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002223s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000368s ]
+
+[ 2014-07-15T15:16:35+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002126s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000430s ]
+
+[ 2014-07-15T15:16:53+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002751s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%易%' ) LIMIT 10   [ RunTime:0.000407s ]
+
+[ 2014-07-15T15:16:53+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002865s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000452s ]
+
+[ 2014-07-15T15:17:01+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E6%98%93
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002270s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000856s ]
+
+[ 2014-07-15T15:17:08+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002258s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000409s ]
+
+[ 2014-07-15T15:17:10+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002374s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000401s ]
+
+[ 2014-07-15T15:17:20+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.017119s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000395s ]
+
+[ 2014-07-15T15:18:02+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup/key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.026087s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000469s ]
+
+[ 2014-07-15T15:18:14+08:00 ] ERR: (ThinkException) 非法操作:searchgroup？key=大
+[ 2014-07-15T15:18:19+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.003019s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000401s ]
+
+[ 2014-07-15T15:20:47+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002412s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.017465s ]
+
+[ 2014-07-15T15:22:03+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002788s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000618s ]
+
+[ 2014-07-15T15:22:18+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[key=%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002243s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000450s ]
+
+[ 2014-07-15T15:22:39+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002397s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000470s ]
+
+[ 2014-07-15T15:24:35+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?[]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002159s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000406s ]
+
+[ 2014-07-15T15:25:03+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?[key=%E9%83%91]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002334s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000400s ]
+
+[ 2014-07-15T15:25:11+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?[key=%E9%83%91%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002323s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000410s ]
+
+[ 2014-07-15T15:25:23+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?[key=%E9%83%91%E5%A4%A7]
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001265s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002410s ]
+NOTIC: [8] Undefined index: key D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 22 行.
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%%' ) LIMIT 10   [ RunTime:0.000455s ]
+
+[ 2014-07-15T15:26:37+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E9%83%91%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002576s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑大%' ) LIMIT 10   [ RunTime:0.000387s ]
+
+[ 2014-07-15T15:26:39+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E9%83%91%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002279s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑大%' ) LIMIT 10   [ RunTime:0.000484s ]
+
+[ 2014-07-15T15:32:48+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.012407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012942s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002685s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000484s ]
+
+[ 2014-07-15T15:32:56+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002425s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.015938s ]
+
+[ 2014-07-15T15:34:12+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E9%83%91
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002566s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑%' ) LIMIT 10   [ RunTime:0.000449s ]
+
+[ 2014-07-15T15:34:20+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002309s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000463s ]
+
+[ 2014-07-15T15:43:43+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.025110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.025272s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.016019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002342s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000448s ]
+
+[ 2014-07-15T15:44:45+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.004128s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000392s ]
+
+[ 2014-07-15T15:48:36+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.013578s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000357s ]
+
+[ 2014-07-15T15:50:32+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002330s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000423s ]
+
+[ 2014-07-15T15:50:51+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002215s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000471s ]
+
+[ 2014-07-15T15:54:51+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002846s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000478s ]
+
+[ 2014-07-15T15:55:48+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001692s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002309s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000458s ]
+
+[ 2014-07-15T15:58:52+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E9%83%91
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.003942s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑%' ) LIMIT 10   [ RunTime:0.000411s ]
+
+[ 2014-07-15T15:59:19+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E9%83%91
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002217s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑%' ) LIMIT 10   [ RunTime:0.000379s ]
+
+[ 2014-07-15T15:59:47+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E9%83%91%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.003518s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑大%' ) LIMIT 10   [ RunTime:0.000412s ]
+
+[ 2014-07-15T16:00:27+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002220s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000425s ]
+
+[ 2014-07-15T16:00:43+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002237s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000452s ]
+
+[ 2014-07-15T16:01:28+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002430s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000415s ]
+
+[ 2014-07-15T16:02:46+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001246s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.069965s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000481s ]
+
+[ 2014-07-15T16:20:27+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.033077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.167386s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.027960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022177s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.282439s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.029786s ]
+
+[ 2014-07-15T16:33:15+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E8%AF%B7%E9%97%AE%E8%80%8C
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.070800s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%请问而%' ) LIMIT 10   [ RunTime:0.052172s ]
+
+[ 2014-07-15T16:33:23+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.009416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002184s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000410s ]
+
+[ 2014-07-15T17:05:48+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.015554s ]
+
+[ 2014-07-15T17:05:58+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E9%83%91%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000893s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.003231s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑大%' ) LIMIT 10   [ RunTime:0.000466s ]
+
+[ 2014-07-15T17:06:02+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002633s ]
+
+[ 2014-07-15T17:06:19+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002476s ]
+
+[ 2014-07-15T17:06:49+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002302s ]
+
+[ 2014-07-15T17:06:52+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000874s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002442s ]
+
+[ 2014-07-15T17:07:20+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E9%83%91%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000931s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002830s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑大%' ) LIMIT 10   [ RunTime:0.000457s ]
+
+[ 2014-07-15T17:07:21+08:00 ] 127.0.0.1 /sscode/index.php/Group/searchGroup?key=%E9%83%91%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002287s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑大%' ) LIMIT 10   [ RunTime:0.000447s ]
+
+[ 2014-07-15T17:07:25+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002437s ]
+
+[ 2014-07-15T17:07:27+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002561s ]
+
+[ 2014-07-15T17:07:30+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002313s ]
+
+[ 2014-07-15T17:07:34+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.004680s ]
+
+[ 2014-07-15T17:08:22+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002455s ]
+
+[ 2014-07-15T17:08:44+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002467s ]
+
+[ 2014-07-15T17:08:46+08:00 ] 127.0.0.1 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002495s ]
+
+[ 2014-07-15T17:09:05+08:00 ] 192.168.1.12 /sscode/index.php/User/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002467s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `username` = '无聊' ) LIMIT 1   [ RunTime:0.032899s ]
+SQL: INSERT INTO `lu_user` (`username`,`phone_num`,`password`) VALUES ('无聊','18723564789','a384b6463fc216a5f8ecb6670f86456a') [ RunTime:0.110692s ]
+
+[ 2014-07-15T17:09:06+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002285s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000433s ]
+
+[ 2014-07-15T17:09:23+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002266s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000431s ]
+
+[ 2014-07-15T17:10:16+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002207s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000438s ]
+
+[ 2014-07-15T17:10:24+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002304s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000526s ]
+
+[ 2014-07-15T17:12:17+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002337s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.000395s ]
+
+[ 2014-07-15T17:12:40+08:00 ] 192.168.1.12 /sscode/index.php/Group/index?
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002281s ]
+SQL: SELECT * FROM `lu_group`  [ RunTime:0.006304s ]
+
+[ 2014-07-15T17:12:59+08:00 ] 192.168.1.12 /sscode/index.php/Group/searchGroup?key=%E5%A4%A7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002725s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%大%' ) LIMIT 10   [ RunTime:0.000444s ]
+
+[ 2014-07-15T17:13:28+08:00 ] 192.168.1.12 /sscode/index.php/User/validate?token=du267l6en7vsc2rahj6eo5mr11username=%E6%97%A0%E8%81%8A
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.004265s ]
+NOTIC: [8] Undefined index: username D:\wuliao\wamp\www\sscode\App\Lib\Action\UserAction.class.php 第 25 行.
+

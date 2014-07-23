@@ -2,6 +2,8 @@
 	class ItemAction extends Action{
 		public function index(){
 			$model=D('Item');
+			$group=D('Group');
+			$group_id=$_POST['group_id'];
 			$condition['group_id']=$_POST['group_id'];
 			$condition['user_id']=$_POST['user_id'];
 			$res=$model->where($condition)->select();
@@ -10,13 +12,17 @@
 			}else{
 				$model=M('Item');
 				if($model->create()){
-					if($model->add()){		
-						echo json_encode(array('status'=>1));
+					if($model->add()){
+						$position['group_id']=$group_id;
+						$data[modify_time]=time();
+						$group->where($position)->save($data);
+						$message=$group->where($position)->select();
+						echo json_encode(array('status'=>1,'message'=>$message));
 					}else{
-						echo json_encode(array('status'=>0));
+						echo json_encode(array('status'=>0,'message'=>null));
 					}
 				}else{
-					echo json_encode(array('status'=>2));
+					echo json_encode(array('status'=>2,'message'=>null));
 				}
 			}
      	}

@@ -10,6 +10,7 @@
 	);
 		protected $_auto=array(
 		array('password','md5',3,'function'),
+		array('modify_time','time',3,'function'),
 	);
 		public function callback_checklen($data){
 			if(strlen($data)<6 || strlen($data)>20){

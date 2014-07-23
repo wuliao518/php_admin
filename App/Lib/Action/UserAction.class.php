@@ -2,6 +2,7 @@
 	class UserAction extends Action{
 		public function add(){
 			$model=D('User');
+			session_start();
 			if($model->create()){
 				if($user_id=$model->add()){
 					$session_id=session_id();
@@ -25,7 +26,7 @@
 			$_SESSION['phonenum']=$phone_num;		
 			$condition['phone_num']=$phone_num;
 			$condition['password']=md5($_POST['password']);
-			if($res=$model->field('user_id,username,phone_num')->where($condition)->select()){
+			if($res=$model->field('user_id,username,phone_num,modify_time')->where($condition)->select()){
 				echo json_encode(array(
 					'status'=>1,'token'=>$session_id,'user'=>$res
 					));
@@ -38,13 +39,13 @@
 		public function validate(){
 			$model=M('User');
 			$str=$_GET['token'];
-			$username=$_GET['username'];
-			session('id',$str);
-			var_dump($_SESSION);
-			if(session('username')==$username){
-				echo json_encode(array('status'=>1));
+			session_id($str);
+			session_start();
+			$username=$_GET['phone_num'];
+			if(session('phone_num')==$phone_num){
+				echo json_encode(array('status'=>1,'token'=>session_id()));
 			}else{
-				echo json_encode(array('status'=>0));
+				echo json_encode(array('status'=>0,'token'=>session_id(),));
 			}
 			//$where['groupname']=array('like',"%{$str}%");
 			
@@ -60,7 +61,7 @@
 			$result=array();
 			$user=D('User');
 			foreach ($arr as $key => $value) {
-				$temp=$user->field('user_id,username,phone_num')->
+				$temp=$user->field('user_id,username,phone_num,modify_time')->
 					where(array('user_id'=>$value))->limit(1)->select();
 				$result=array_merge($temp,$result);
 			}
@@ -94,7 +95,7 @@
 						$result=array_merge($temp,$result);
 					}else{
 						echo json_encode(array(
-						'status'=>0,'groups'=>$result,'message'=>'noting'
+						'status'=>0,'groups'=>$result,'message'=>'nothing'
 					));
 					}
 					

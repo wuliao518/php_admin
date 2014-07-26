@@ -2,12 +2,21 @@
 	class UserAction extends Action{
 		public function add(){
 			$model=D('User');
+			$group=D('Group');
 			session_start();
 			if($model->create()){
 				if($user_id=$model->add()){
 					$session_id=session_id();
 					$username=$_POST['username'];
+					$phone_num=$_POST['phone_num'];
 					session('username',$username);
+					session('phone_num',$phone_num);
+					$data['groupname']=$username;
+					$data['user_id']=$user_id;
+					//创建一个group，并向item中增加一条数据
+					$group_id=$group->add($data);
+					$item=D('item');
+					$item->add(array('group_id'=>$group_id,'user_id'=>$user_id));
 					echo(json_encode(array('status'=>1,'message'=>'success','token'=>$session_id,'user_id'=>$user_id)));
 				}else{
 					echo(json_encode(array('status'=>0,'message'=>$model->getError(),'token'=>null,'user_id'=>null)));
@@ -15,7 +24,6 @@
 			}else{
 				echo (json_encode(array('status'=>2,'message'=>'fail','token'=>null,'user_id'=>null)));
 			}
-			
 		}
 		public function login(){
 			$model=M('User');
@@ -67,7 +75,7 @@
 			}
 			echo json_encode(array('status'=>1,'message'=>$result));
 		}
-		public function selectGroupFromUser(){
+		public function selectGroupsFromUer(){
 			$model=D('Group');
 			$condition['user_id']=$_GET['user_id'];
 			$arr= array();

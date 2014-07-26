@@ -61,6 +61,16 @@
 		public function updaterUserName(){
 
 		}
+		public function updaterPhone(){
+			$model=M('User');
+			$data['phone_num']=$_GET['phone_num'];
+			$condition['user_id']=$_GET['user_id'];
+			if($model->where($condition)->save($data)){
+				echo json_encode(array('status'=>1));
+			}else{
+				echo json_encode(array('status'=>0));
+			}
+		}
 		
 
 

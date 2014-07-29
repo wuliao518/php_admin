@@ -11,18 +11,18 @@
 					$phone_num=$_POST['phone_num'];
 					session('username',$username);
 					session('phone_num',$phone_num);
-					$data['groupname']=$username;
-					$data['user_id']=$user_id;
+					//$data['groupname']=$username;
+					//$data['user_id']=$user_id;
 					//创建一个group，并向item中增加一条数据
-					$group_id=$group->add($data);
-					$item=D('item');
-					$item->add(array('group_id'=>$group_id,'user_id'=>$user_id));
+					//$group_id=$group->add($data);
+					//$item=D('item');
+					//$item->add(array('group_id'=>$group_id,'user_id'=>$user_id));
 					echo(json_encode(array('status'=>1,'message'=>'success','token'=>$session_id,'user_id'=>$user_id)));
 				}else{
-					echo(json_encode(array('status'=>0,'message'=>$model->getError(),'token'=>null,'user_id'=>null)));
+					echo(json_encode(array('status'=>0,'message'=>'fail','token'=>null,'user_id'=>null)));
 				}
 			}else{
-				echo (json_encode(array('status'=>2,'message'=>'fail','token'=>null,'user_id'=>null)));
+				echo (json_encode(array('status'=>2,'message'=>$model->getError(),'token'=>null,'user_id'=>null)));
 			}
 		}
 		public function login(){
@@ -114,7 +114,7 @@
 			
 			}else{
 				echo json_encode(array(
-						'status'=>0,'groups'=>$result,'message'=>'error'
+						'status'=>2,'groups'=>$result,'message'=>'error'
 					));
 			}
 			
@@ -133,6 +133,16 @@
 				session_destroy();
 			}
 		}
+		public function json(){
+			$model=M('User');
+			$json=$_POST['json'];
+			$user_id=$_POST['user_id'];
+			$data['json']=$json;
+			$model->where(array('user_id'=>$user_id))->save($data);
+			echo $json;
+		}
+
+
 	}
 	//select user_id from lu_item where group_id='1';
 	// select username,phone_num from lu_user where user_id in (select user_id from lu_item where group_id='1');

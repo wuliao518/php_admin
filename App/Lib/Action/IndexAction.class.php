@@ -7,4 +7,10 @@ class IndexAction extends Action {
 	public function ceshi(){
 		$this->display();
 	}
+	public function getVersion(){
+		$info=array();
+		$info['url']="http://www.sscode.com/download/NetDemo.apk";
+		$info['version']='1.3';
+		echo json_encode($info);
+	}
 }

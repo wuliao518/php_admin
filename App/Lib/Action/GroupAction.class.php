@@ -38,7 +38,7 @@
 				echo json_encode($str);
 			}
 		}
-		public function createGroup(){
+		/*public function createGroup(){
 			$model=M('Group');
 			if($model->create()){
 				if($user_id=$model->add()){
@@ -49,7 +49,7 @@
 			}else{
 				echo (json_encode(array('status'=>2)));
 			}
-		}
+		}*/
 	
 		public function updaterUserPassword(){
 			$model=M('User');
@@ -71,7 +71,36 @@
 				echo json_encode(array('status'=>0));
 			}
 		}
-		
+		public function createGroup(){
+			$model=M('Group');
+			$item=M('Item');
+			$user=M('User');
+			$data['user_id']=$_GET['user_id'];
+			$data['groupname']=$_GET['groupname'];
+			$data['group_desc']=$_GET['group_desc'];
+			$data['modify_time']=time();
+			$val=$user->field('group_num')->where(array('user_id'=>$_GET['user_id']))->select();
+			if($model->where(array('groupname'=>$_GET['groupname']))->select()){
+				echo json_encode(array('status'=>0,'message'=>'组名重复'));
+			}else{
+				if($val[0]['group_num']>=1){
+					if($res=$model->add($data)){
+						$items['user_id']=$_GET['user_id'];
+						$items['group_id']=$res;
+						$item->add($items);
+						$user->where(array('user_id'=>$_GET['user_id']))->save(array('group_num'=>$val[0]['group_num']-1));
+						echo json_encode(array('status'=>1,'message'=>'success'));
+					}else{
+						echo json_encode(array('status'=>0,'message'=>$model->getError()));
+					}
+				}else{
+					echo json_encode(array('status'=>0,'message'=>'您不能创建更多'));
+				}
+			}
+			
+			
+			
+		}
 
 
 

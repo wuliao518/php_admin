@@ -1,0 +1,201 @@
+[ 2014-07-25T18:42:15+08:00 ] 192.168.1.126 /sscode/index.php/User/test?user_id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.020549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020710s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.047683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021806s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.256590s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.178025s ]
+SQL: SELECT `group_id` FROM `lu_item` WHERE ( `user_id` = 1 )  [ RunTime:0.000880s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.017337s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_id` = 2 ) LIMIT 1   [ RunTime:0.000433s ]
+
+[ 2014-07-25T18:42:15+08:00 ] 192.168.1.126 /sscode/index.php/User/selectUserAtGroup?group_id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001134s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002123s ]
+SQL: SELECT `user_id` FROM `lu_item` WHERE ( `group_id` = 2 )  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.125361s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 1 ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 3 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.000336s ]
+
+[ 2014-07-25T18:42:15+08:00 ] 192.168.1.126 /sscode/index.php/User/selectUserAtGroup?group_id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002228s ]
+SQL: SELECT `user_id` FROM `lu_item` WHERE ( `group_id` = 1 )  [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.061056s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 1 ) LIMIT 1   [ RunTime:0.000545s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 3 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 7 ) LIMIT 1   [ RunTime:0.000726s ]
+
+[ 2014-07-25T18:42:26+08:00 ] 192.168.1.126 /sscode/index.php/Group/searchGroup?key=%E9%83%91
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002563s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%郑%' ) LIMIT 10   [ RunTime:0.000385s ]
+
+[ 2014-07-25T18:42:33+08:00 ] 192.168.1.126 /sscode/index.php/User/validate?token=ggqpuun90njgc2l9rcceedsbk3&phone_num=15936201059
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001122s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002368s ]
+NOTIC: [8] Undefined variable: phone_num D:\wuliao\wamp\www\sscode\App\Lib\Action\UserAction.class.php 第 45 行.
+
+[ 2014-07-25T18:42:33+08:00 ] 192.168.1.126 /sscode/index.php/Item/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002236s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002444s ]
+SQL: SELECT * FROM `lu_item` WHERE ( `group_id` = 1 ) AND ( `user_id` = 1 )  [ RunTime:0.000438s ]
+
+[ 2014-07-25T18:42:41+08:00 ] 192.168.1.126 /sscode/index.php/User/validate?token=ggqpuun90njgc2l9rcceedsbk3&phone_num=15936201059
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.005543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002239s ]
+NOTIC: [8] Undefined variable: phone_num D:\wuliao\wamp\www\sscode\App\Lib\Action\UserAction.class.php 第 45 行.
+
+[ 2014-07-25T18:42:41+08:00 ] 192.168.1.126 /sscode/index.php/Item/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002287s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002279s ]
+SQL: SELECT * FROM `lu_item` WHERE ( `group_id` = 2 ) AND ( `user_id` = 1 )  [ RunTime:0.000412s ]
+
+[ 2014-07-25T18:42:49+08:00 ] 192.168.1.126 /sscode/index.php/User/validate?token=ggqpuun90njgc2l9rcceedsbk3&phone_num=15936201059
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002264s ]
+NOTIC: [8] Undefined variable: phone_num D:\wuliao\wamp\www\sscode\App\Lib\Action\UserAction.class.php 第 45 行.
+
+[ 2014-07-25T18:42:49+08:00 ] 192.168.1.126 /sscode/index.php/Item/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002429s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002335s ]
+SQL: SELECT * FROM `lu_item` WHERE ( `group_id` = 3 ) AND ( `user_id` = 1 )  [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002174s ]
+SQL: INSERT INTO `lu_item` (`group_id`,`user_id`) VALUES (3,1) [ RunTime:0.075875s ]
+NOTIC: [8] Use of undefined constant modify_time - assumed 'modify_time' D:\wuliao\wamp\www\sscode\App\Lib\Action\ItemAction.class.php 第 17 行.
+SQL: UPDATE `lu_group` SET `modify_time`=1406284969 WHERE ( `group_id` = 3 ) [ RunTime:0.055909s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_id` = 3 )  [ RunTime:0.000403s ]
+
+[ 2014-07-25T18:42:50+08:00 ] 192.168.1.126 /sscode/index.php/User/selectUserAtGroup?group_id=3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002336s ]
+SQL: SELECT `user_id` FROM `lu_item` WHERE ( `group_id` = 3 )  [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002307s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 3 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 1 ) LIMIT 1   [ RunTime:0.000405s ]
+
+[ 2014-07-25T18:42:57+08:00 ] 192.168.1.126 /sscode/index.php/User/test?user_id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.004109s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002281s ]
+SQL: SELECT `group_id` FROM `lu_item` WHERE ( `user_id` = 1 )  [ RunTime:0.010775s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_id` = 2 ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_id` = 3 ) LIMIT 1   [ RunTime:0.000368s ]
+
+[ 2014-07-25T18:42:57+08:00 ] 192.168.1.126 /sscode/index.php/User/selectUserAtGroup?group_id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002113s ]
+SQL: SELECT `user_id` FROM `lu_item` WHERE ( `group_id` = 2 )  [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002420s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 1 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 3 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2014-07-25T18:42:57+08:00 ] 192.168.1.126 /sscode/index.php/User/selectUserAtGroup?group_id=3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002269s ]
+SQL: SELECT `user_id` FROM `lu_item` WHERE ( `group_id` = 3 )  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.002561s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 3 ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 1 ) LIMIT 1   [ RunTime:0.000375s ]
+
+[ 2014-07-25T18:42:57+08:00 ] 192.168.1.126 /sscode/index.php/User/selectUserAtGroup?group_id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002448s ]
+SQL: SELECT `user_id` FROM `lu_item` WHERE ( `group_id` = 1 )  [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003135s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 1 ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 3 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT `user_id`,`username`,`phone_num`,`modify_time` FROM `lu_user` WHERE ( `user_id` = 7 ) LIMIT 1   [ RunTime:0.000327s ]
+
+[ 2014-07-25T18:43:13+08:00 ] 192.168.1.126 /sscode/index.php/Group/searchGroup?key=%E9%99%86
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001314s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002322s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `groupname` LIKE '%陆%' ) LIMIT 10   [ RunTime:0.000449s ]
+

@@ -1,0 +1,80 @@
+[ 2014-07-31T13:56:57+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.067575s ]
+INFO: [ route_check ] --END-- [ RunTime:0.096522s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.134017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045995s ]
+
+[ 2014-07-31T13:57:42+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+
+[ 2014-07-31T13:58:40+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+
+[ 2014-07-31T13:58:41+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+
+[ 2014-07-31T13:59:02+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-07-31T13:59:54+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+
+[ 2014-07-31T14:00:07+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+
+[ 2014-07-31T14:00:08+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-07-31T14:00:08+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+
+[ 2014-07-31T14:00:28+08:00 ] 127.0.0.1 /sscode/index.php/index/getVersion
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+

@@ -1,0 +1,162 @@
+[ 2014-08-16T14:15:11+08:00 ] 127.0.0.1 /sscode/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.010314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010576s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045352s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055723s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065110s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.073130s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.085886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031173s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.087038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006228s ]
+
+[ 2014-08-16T14:15:30+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.031464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.031622s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.042438s ]
+NOTIC: [4096] Object of class Model could not be converted to string D:\wuliao\wamp\www\sscode\App\Lib\Action\OptionAction.class.php 第 5 行.
+
+[ 2014-08-16T14:15:43+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.003506s ]
+
+[ 2014-08-16T14:19:16+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002449s ]
+
+[ 2014-08-16T14:19:43+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1?user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.003246s ]
+
+[ 2014-08-16T14:19:45+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1?user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000840s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.010749s ]
+
+[ 2014-08-16T14:19:57+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1?user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002417s ]
+
+[ 2014-08-16T14:19:58+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1?user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002284s ]
+
+[ 2014-08-16T14:19:59+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1?user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002660s ]
+
+[ 2014-08-16T14:19:59+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1?user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.004110s ]
+
+[ 2014-08-16T14:20:20+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1&user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002588s ]
+
+[ 2014-08-16T14:20:24+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=1&user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002513s ]
+
+[ 2014-08-16T14:20:29+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=2&user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.003277s ]
+
+[ 2014-08-16T14:20:50+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=2&user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002456s ]
+
+[ 2014-08-16T14:20:57+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=2&user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002554s ]
+
+[ 2014-08-16T14:21:11+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=2&user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002424s ]
+
+[ 2014-08-16T14:21:12+08:00 ] 127.0.0.1 /sscode/index.php/Option/addOption?user_id=2&user_option=hahahahaha
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `lu_option` [ RunTime:0.002693s ]
+

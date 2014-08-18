@@ -1,0 +1,16 @@
+[ 2014-07-30T08:37:07+08:00 ] ERR: (ThinkException) Column 'groupname' cannot be null
+ [ SQL语句 ] : INSERT INTO `lu_group` (`groupname`) VALUES (null)
+[ 2014-07-30T08:37:51+08:00 ] 127.0.0.1 /sscode/index.php/group/createGroup
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002431s ]
+SQL: SHOW COLUMNS FROM `lu_item` [ RunTime:0.002189s ]
+NOTIC: [8] Undefined index: user_id D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 77 行.
+NOTIC: [8] Undefined index: group_desc D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 79 行.
+NOTIC: [8] Undefined index: group_desc D:\wuliao\wamp\www\sscode\App\Lib\Action\GroupAction.class.php 第 80 行.
+SQL: INSERT INTO `lu_group` (`groupname`) VALUES ('ceshi') [ RunTime:0.028623s ]
+

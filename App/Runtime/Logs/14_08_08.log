@@ -1,0 +1,17 @@
+[ 2014-08-08T15:24:20+08:00 ] 127.0.0.1 /sscode/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013453s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035776s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045626s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.081920s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.098206s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.136226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.126759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.172533s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012419s ]
+
